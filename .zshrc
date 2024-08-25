@@ -86,8 +86,13 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias mc='java -jar ~/Downloads/LegacyLauncher_legacy.jar'
 alias sen='xinput --set-prop 8 "libinput Accel Speed"'
-alias dev='sudo mount -t ntfs-3g /dev/nvme0n1p3 /mnt/D/ && cd /mnt/D'
-PS1='[\u@\h \W]\$ '
+alias davincii='LD_PRELOAD="/usr/lib/libgio-2.0.so /usr/lib/libgmodule-2.0.so /usr/lib/libglib-2.0.so" /mnt/C/resolve/bin/resolv'
+#alias dev='sudo mount -t ntfs-3g /dev/nvme0n1p3 /mnt/D/ && cd /mnt/D'
+alias dev='cd /mnt/C/D/Dev'
+# PS1='%m %1d$ '
+# Set up the prompt to show the current directory and time
+# PROMPT='%F{cyan}%~%f %F{yellow}(%F{green}%*.%0S%F{yellow})%f %# '
+
 # ~/.bashrc
 
 source $ZSH/oh-my-zsh.sh
